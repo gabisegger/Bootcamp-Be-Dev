@@ -1,17 +1,63 @@
+/* Posicionamento */
+.flexRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 body{
     height: 100vh;
     font-family: 'Montserrat', sans-serif;
 }
 
-header{
+header {
     background-color: #4864C0;
     max-height: 200px;
 }
 
-.logoBemol{
+.logoBemol {
     max-width: 400px;
     max-height: 150px;
     width: auto;
     height: auto;
     margin: 40px 0px 40px 140px;
+}
+
+h1 {
+    color: #1D2F8A;
+    font-size: 61px;
+    font-weight: 700;
+    line-height: 67px;
+    width: 468px;
+    height: 201px;
+    margin-bottom: 20px;
+}
+
+.firstSection p {
+    height: 60px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1D2F8A;
+    width: 396px;
+    text-align: left;
+    line-height: 21.6px;
+    margin-bottom: 15px
+}
+
+.openAccountLink {
+    height: auto;
+    width: 336px;
+    left: 10px;
+    top: 329px;
+    border-radius: 10px;
+    padding: 16px 24px 16px 24px;
+    background-color: #FFC04A;
+    color: #1D2F8A;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: none;
 }
