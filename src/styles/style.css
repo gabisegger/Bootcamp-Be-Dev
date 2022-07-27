@@ -5,6 +5,14 @@
     align-items: center;
 }
 
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 body{
     height: 100vh;
     font-family: 'Montserrat', sans-serif;
@@ -60,4 +68,44 @@ h1 {
     margin-top: 10px;
     cursor: pointer;
     text-decoration: none;
+}
+
+.secondSection {
+    max-width: 1200px;
+    max-height: 699px;
+    margin: auto;
+}
+
+.secondSection h6 {
+    width: 500px;
+    color: #1D2F8A;
+    margin-left: 45px;
+}
+
+.reginaImg {
+    height: 570px;
+    width: 570px;
+}
+
+.cardAdvantages {
+    flex-wrap: wrap;
+    max-width: 450px;
+    max-height: 655px;
+    justify-content: space-between;
+}
+
+.miniCard {
+    width: 220px;
+    margin: 5px auto;
+}
+
+.miniCard span {
+    display: block;
+    font-size: 10px;
+    font-weight: 700px;
+    line-height: 21px;
+    text-align: center;
+    color: #1D2F8A;
+    max-width: 210px;
+    height: 52px;
 }
